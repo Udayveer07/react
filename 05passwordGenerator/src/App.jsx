@@ -24,7 +24,7 @@ function App() {
 
     setPassword(pass)
 
-  }, [length, numAllowed, character])
+  }, [length, numAllowed, character,setPassword])
 
   const copypasswordonClipboard = useCallback(() => {
     passwordRef.current?.select()
@@ -50,7 +50,7 @@ function App() {
             readOnly
             ref={passwordRef}
           />
-          <button className="col-span-2 text-white font-medium text-sm w-full sm:w-auto py-2 px-2.5 text-center dark:bg-blue-600  items-center inline-flex justify-center active:bg-blue-800"  onClick={copypasswordonClipboard}>Copy</button>
+          <button className="col-span-2 text-white font-medium text-sm w-full sm:w-auto py-2 px-2.5 text-center dark:bg-blue-600  items-center inline-flex  hover:bg-blue-500  justify-center active:bg-blue-800"  onClick={copypasswordonClipboard}>Copy</button>
          </div>
          
          <div className='text-sm gap-x-2 flex   '>
