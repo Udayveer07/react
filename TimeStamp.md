@@ -1,6 +1,7 @@
 ## TimeStamps
 
 # 00:00 context api with local storage
+# 01:15 Redux toolkit crash course
 # 02:36 Appwrite backend for react project
 # 02:51 ENV and Appwrite in React project
 # 03:25 Build authentication service with appwrite
