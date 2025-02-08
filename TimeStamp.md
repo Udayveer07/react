@@ -13,4 +13,4 @@
 # 07:23 building pages
 # 07:53 CORS and debugging in React Project
 # 08:18 Assignments for your react course
-# 08:35 React series ends here
+# 08:35 React series ends here<<>>
